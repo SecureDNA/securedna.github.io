@@ -1,24 +1,24 @@
 ---
 layout: default
-title: Secure DNA Project - DNA Synthesis Screening
+title: DNA安保项目 - DNA Synthesis Screening
 --- 
-{% include_relative header-en.md %}
+{% include_relative header-zh.md %}
 
-# Team
+# 项目团队
 
-- **Dean Andrew Yao**<br/>Tsinghua
+- **姚期智院长/教授**<br/>清华大学
 - **Professor Kevin Esvelt**<br/>MIT
 - **Professor Ivan Damgård**<br/>Aarhus
-- **Dean Lan Xue**<br/>Tsinghua
+- **薛澜院长/教授**<br/>清华大学
 - **Professor Ron Rivest**<br/>MIT
 - **Dr. Carsten Baum**<br/>Aarhus
-- **Professor Mingyu Gao**<br/>Tsinghua
+- **高鸣宇教授**<br/>清华大学
 - **Professor Vinod Vaikuntanathan**<br/>MIT
 - **Dr. Leonard Foner**<br/>MIT
 - **Professor Adi Shamir**<br/>Weizmann Institute
-- **Professor Yu Yu**<br/>Shanghai Jiao Tong
+- **郁昱教授**<br/>上海交通大学
 - **Dr. Omer Paneth**<br/>MIT
-- **Hongrui Cui**<br/>Shanghai Jiao Tong
+- **崔泓睿**<br/>上海交通大学
 - **Dana Gretton**<br/>MIT
 - **Meicen Sun**<br/>MIT
 - **Professor Daniel Wichs**<br/>Northeastern

@@ -1,12 +1,11 @@
 ---
 layout: default
-title: SecureDNA
+title: Secure DNA Project - DNA Synthesis Screening
 --- 
 {% include_relative header-en.md %}
 
 <br />
 # Securing Global Biotechnology
-
 
 *A world in which many thousands of people have access to powerful and potentially dangerous biotechnologies is unlikely to flourish*
 
@@ -23,7 +22,7 @@ Screening all DNA synthesis orders for potentially serious hazards, ideally *wit
 <br /><br />
 
 ## The Secure DNA Project
----
+
 Our team of academic life scientists, cryptographers, and policy analysts from many nations came together in 2019 to devise a system capable of secure and universal DNA synthesis screening that would be suitable for stepwise or complete implementation by stakeholders.
 
 Secure DNA is an automated DNA screening system that will be available everywhere, for free, thanks to philanthropic support. Automation provides key advantages over other screening methods.
@@ -38,10 +37,14 @@ We believe a stronger DNA synthesis screening system can be built from the follo
 <br /><br />
 
 ## The Proposed Approach
----
+
 *Securely screen for random critical fragments and functional equivalents without false alarms*
 
+<span id="main-diagram-01">
 ![Diagram](img/system_diagram.png)
+</span>
+
+
 Proposed secure and universal DNA synthesis screening system
 
 DNA synthesis orders are automatically broken into fragments and directly compared to a database of *pieces chosen at random from critical regions* of hazardous sequences. Any ‘adversaries’ attempting to evade screening cannot know which fragments are protected, forcing them to include mutations across the entire sequence of the potential hazard. 
@@ -54,17 +57,21 @@ Finally, the system can be securely implemented by a distributed network of serv
 <br /><br />
 
 ## Unobstructed Research
----
+
+<span id="main-diagram-02">
 ![Global DNA synthesis expected growth](img/synth_projection.png)
+</span>
+
 Global DNA synthesis is expected to rise to 10<sup>15</sup> base pairs per year in 2030.
 
 *Securing DNA synthesis should not impede legitimate scientific or commercial research.* Because no fragments in the database will match any harmless sequences in the GenBank repository, only random chance could cause an innocent order to be incorrectly identified as hazardous and blocked. We can calculate this probability using the anticipated database size and amount of DNA likely to be synthesized in a given year. Based on projections, *we expect to see approximately one such false alarm in the year 2030.*
 
 Companies or laboratories authorized to work with a blocked agent or sequence can be issued certificates by institutions or governments, which would be sent with orders to major DNA synthesis providers possessing secured machines. Any order fragments that match those listed on the certificate would be automatically approved, *enabling legitimate researchers to receive shipments without delay*. The whitelist mechanism would also prevent abuse of the screening system for individual or commercial gain.
 <br /><br />
+<span id="main-diagram-float-reset"></span>
 
 ## Information Security
----
+
 *Screening should never disclose the identities of DNA synthesis orders or designated hazards.* Current screening practices cannot accomplish either: even if an order is securely transmitted to the synthesis provider, it must be accessible to human experts if flagged as a threat.
 
 Cooperative networks of servers can perform [distributed computations](https://en.wikipedia.org/wiki/Secure_multi-party_computation) without any single machine having access to the relevant data. A [secure distributed one-way transformation](https://en.wikipedia.org/wiki/Pseudorandom_function_family#Oblivious_pseudorandom_functions) can render fragments from orders and hazards uninterpretable, yet still allow them to be compared to determine whether the originals were identical. The database could be made resistant to future quantum computer attacks by arranging for each server to apply an additional [quantum-resistant](https://en.wikipedia.org/wiki/Post-quantum_cryptography) transformation with a unique key and then combining the results.
@@ -73,21 +80,20 @@ Our team strongly recommends open-sourcing the code and offering numerous prizes
 <br /><br />
 
 ## Commercial Providers and Desktop Machines
----
+
 Screening can be performed by physically secure networks of servers located in each major geographic area. Large companies, including commercial vendors who sell synthetic DNA and assembled genes, will be able to communicate with their local network by private fiber lines for extra security and reliability. 
 
 Next-generation desktop synthesizers, which are anticipated to become available in the next few years, can communicate with servers via the open internet. Working closely with manufacturers can ensure that these machines incorporate hardware locks that will only allow them to function if they receive the correct responses to queries. If screening can be incorporated into all next-generation enzymatic DNA synthesizers and assemblers, the eventual scarcity of chemicals required for older machines will ensure that screening becomes nearly universal.
 <br /><br />
 
 ## Guarding Against Future Advances
----
 If a minimum number of authorized experts concur that a newly discovered sequence or one that previously appeared innocuous is likely hazardous, they can add essential fragments from that sequence to the hazards database without informing others. 
 
 This feature will allow well-meaning researchers who identify a new potential hazard to prevent misuse without drawing attention to the possibility.
 <br /><br />
 
 ## Summary
----
+
 Our proposed approach:
 - Permits fully automated screening, requiring no human experts to examine matches
 - Can provide maximal security against information hazards and industrial espionage
@@ -99,6 +105,8 @@ Our proposed approach:
 As a team, we are committed to helping protect the world from current and future autonomous biological hazards. The COVID-19 pandemic has underscored the gravity of this challenge. We pledge to work with DNA synthesis experts, biotechnologists, and policymakers from all nations to help secure our shared world.
 <br /><br />
 
+<span id="main-diagram-03">
 ![Stages of stepwise adoption](img/stepwise.png)
+</span>
 
 The Secure DNA Project is expected to evolve through several stages of stepwise adoption.

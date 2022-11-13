@@ -1,0 +1,96 @@
+body {
+    background-color: rgb(230,240,250);
+}
+
+h1 {
+    text-shadow: 2px 2px 5px gray;
+}
+
+h2 {
+    border-bottom: 0.15em solid gray;
+}
+
+h3 {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+a, a:visited {
+    color: #38913c;
+}
+
+#main-diagram-float-reset {
+    clear: both;
+}
+
+#main-diagram-01, #main-diagram-03 {
+    display: block;
+    width: (100% - 2*9px);
+    border: 1px solid gray;
+    box-shadow: 8px 8px;
+}
+
+#main-diagram-02 {
+    display: block;
+    width: 35%;
+    border: 1px solid gray;
+    box-shadow: 8px 8px;
+    float: right;
+    margin-left: 0.4em;
+}
+
+#main-manuscript-01, #main-manuscript-02 {
+    display: block;
+    width: 35%;
+    border: 1px solid gray;
+    box-shadow: 8px 8px;
+    float: left;
+    margin-right: 1.3em;
+}
+
+/*
+td {
+    outline: 1px solid gray;
+}*/
+#team ~ table, #项目团队 ~ table {
+    border-spacing: 0px;
+    border-collapse: separate;
+    /*overflow: hidden;*/
+    /*border: 1px solid gray;*/
+    /*border-radius: 10px;*/
+}
+
+#team ~ table thead, #项目团队 ~ table thead {
+    display: none;
+}
+/*
+#team ~ table tr:nth-of-type(2n+1), #项目团队 ~ table tr:nth-of-type(2n+1) {
+    background-color: #cbf8be;
+}
+#team ~ table tr:nth-of-type(2n), #项目团队 ~ table tr:nth-of-type(2n) {
+    background-color: #a7ecf5;
+}*/
+#team ~ table tr:nth-of-type(1), #项目团队 ~ table tr:nth-of-type(1) {
+    background-color: #cbf8be;
+}
+#team ~ table tr:nth-of-type(2), #项目团队 ~ table tr:nth-of-type(2) {
+    background-color: #a7ecf5;
+}
+#team ~ table tr:nth-of-type(3), #项目团队 ~ table tr:nth-of-type(3) {
+    background-color: #cbf8be;
+}
+#team ~ table tr:nth-of-type(4), #项目团队 ~ table tr:nth-of-type(4) {
+    background-color: #cbf8be;
+}
+#team ~ table tr:nth-of-type(5), #项目团队 ~ table tr:nth-of-type(5) {
+    background-color: #a7ecf5;
+}
+#team ~ table tr:nth-of-type(6), #项目团队 ~ table tr:nth-of-type(6) {
+    background-color: #cbf8be;
+}
+#team ~ table tr:nth-of-type(7), #项目团队 ~ table tr:nth-of-type(7) {
+    background-color: #cbf8be;
+}
+#team ~ table tr:nth-of-type(8), #项目团队 ~ table tr:nth-of-type(8) {
+    background-color: #cbf8be;
+}
